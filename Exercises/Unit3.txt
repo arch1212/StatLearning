@@ -1,0 +1,59 @@
+ques 1:
+null hypothesis for "TV" is, in the presence of radio and newspaper, spending money on TV advertising has no effect on the sales. 
+null hypothesis for newspaper is, in the presence of radio and TV, spending money on advertising in newspaper has no effect on sales. 
+null hypothesis for radio is, in the presence of Tv and newspaper, spending money on radio advertising has no effect on sales. 
+
+p-values for TV's and radio's null hypothesis are close to zero, making us reject their null hypothesis, while p-value for newspaper is too much away from zero, where we fail to reject the null hypothesis. 
+we can say that, TV and radio are statistically significant in predicting sales. 
+
+ques 2:
+KNN classifier:
+non-parametric method, It is used in classification setting (returns a qualitative output). 
+It takes into account the proportion of K nearest neighbors that belong to a particular category in order to make a prediction for x0.
+
+KNN regression model:
+non-parametric method, it is used in regression setting (returns a quantitative output). It takes into account the response values for the K nearest neighbors, and takes their average to return the prediction for x0. 
+
+ques 3:
+a)1) FALSE
+2) FAL:SE
+3) TRUE
+4) FALSE
+
+b) $137,100
+c) eveidence is based upon the p-value, not coefficient to see if the regression coefficient is statistically significant.
+
+ques 4:
+a) since the true relationship between X and Y is linear, the linear regression is going to provide a good fit which will able to generalise to make predictions for observations outside the training set with higher accuracy. 
+On the other hand, the cubic regression model tries to hard to fit the training error terms and is too wiggly. It overfits the data and will not be able to generalise for unseen observations i.e. perform poorly with test set. It has much lower RSS for the training values than linear regression 
+
+b) RSS value for linear regression for a test set will be much lower than the cubic regression since it will be able to generalise better for unseen predictions because the true relationship is linear. 
+
+c) true relationship is non-linear. again, cubic regression will try too hard to fit the data, it being a flexible model which will result in a lower training RSS
+
+d) we do not know how far it is from linear so we cannot say which will result in lower test set RSS. we need to know the true pattern in the data to tell about test set. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
