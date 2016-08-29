@@ -1,0 +1,29 @@
+ques 4
+a) 0.10 since the observations are uniformly distributed. 
+b) 0.10*0.10 = 0.01, since there are two dimensions
+c) (0.10)^100
+d) the more the the number of features, the lesser the fraction of observations we get in the same proximity. This is because of the distance.
+As the number of features/dimensions increses the distance between two observations is going to increase and thus the number of observations in the same proximity is going to decrease.
+Also, if we keep the number of observations same, then that would not be a very good approximation since they will far off from the observation under consideration. 
+e) We need to keep 10% of the training observations in the hypercube.
+for p=1, hypercube is a line with length 0.10
+for p=2, hypercube is a square with area 0.10, length =sqrt(.10)
+for p=3, hypercube is a cube with volume 0.10, length of each side = crt(.10)
+to keep the number of observations same in the hypercube, its volume will keep increasing, but the length of each side will decrease
+
+ques 5
+a) if the bayes decision boundary is linear, it means the original decision boundary is linear. 
+LDA will perform better than QDA on the test set since for QDA increase in the variance is not offset by the decrease in the bias. 
+QDA will perform better on the training set since it is more flexible model, it will end up overfitting the data. 
+
+b) If Bayes decision boundary is non-linear, then QDA will perform better on both training as well as the test set than LDA. Though it depends upon the number of training observations. if there are enough training observations then QDA will better than LDA on training set and eventually on the test set and will not overfit the data.
+
+c) as the sample size increases, test set accuracy of QDA will improve since with the enough observations in the training set, QDA will not be overfitting the data and will have enough observations to accurately estimate the pattern. 
+
+d) FALSE. LDA will have low bias while QDA has a high variance which can be offset by increase in the sample size but the test Error rate for LDA will always be lower than QDA.
+because of the variance, QDA will overfit the data and leading to high test error rate. 
+
+ques 8
+we should prefer logistic regression. 
+Training error for 1NN will always be zero since the the 1st nearest neighbor will be the response itself, which makes the test error for KNN 36%. 
+
